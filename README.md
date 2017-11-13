@@ -1,5 +1,5 @@
 # Udacity FullStack Developer Nanodegree Program
-#### SQL database project
+## SQL database project
 
 ## Requirements
 You need to install python and the virtual machine that to run the sql databse server. The VM is a Linux server that runs on top of you computer.
