@@ -12,9 +12,17 @@ You need to install python and the virtual machine that to run the sql databse s
 
 ###### Install the virtual Machine
 * Install [VirtualBox](https://www.virtualbox.org) make sure you are downloading the latest version, there could be some incompatibility issues.
-* Install [Vagrant](https://www.vagrantup.com/downloads.html) verify by running 
+* Install [Vagrant](https://www.vagrantup.com/downloads.html) verify by running that it has installed by using:
 ```
-$vagrant --version
+$ vagrant --version
+```
+* Navigate where you vagrant folder is and the run the following command to intsall Linux in you VM:
+```
+$ vagrant up
+```
+* Log into you Linux VM by using:
+```
+$ vagrant ssh
 ```
 
 ###### Running the project
