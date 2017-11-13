@@ -23,7 +23,6 @@ $ vagrant up
 ```
 $ vagrant ssh
 ```
----
 
 ## Running the project
 * Verify access to database using the following command: 
