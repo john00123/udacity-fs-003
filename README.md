@@ -1,11 +1,16 @@
 # Udacity FullStack Developer Nanodegree Program
 ### SQL database project
 
+
 ## Requirements
 You need to install python and the virtual machine that to run the sql databse server. The VM is a Linux server that runs on top of you computer.
 * Download the latest version of [Python 3](https://www.python.org/downloads/)
 * Download [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org) to install and manage the Virtual Machine.
 * Download the information into your vagrant folder [VM configuration](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+
+
+
+---
 
 
 
@@ -23,7 +28,7 @@ $ vagrant up
 ```
 $ vagrant ssh
 ```
-
+---
 
 ## Running the project
 * Verify access to database using the following command: 
