@@ -22,18 +22,14 @@ $ vagrant up
 ```
 $ vagrant ssh
 ```
-* Access the database by using: 
+
+###### Running the project
+* Verify access to database using the following command: 
 ```
 $ psql -d news -f newsdata.sql
 ```
-
-
-###### Running the project
-Make sure you have downloaded all the files listed in requirements, after that: 
-- Connect to the VM using the following commmand 
+* Access the Virtual machine navigate to the vagrant folder inside it and then run the following command to outpu the database queries for the project.
 ```
-$ vagrant up
+$ python3 news.py
 ```
-- After VM is runnin run `Vagrant ssh`.
-- Navigate to the vagrant folder using `cd vagrant`
-- Once succesfully 
+
