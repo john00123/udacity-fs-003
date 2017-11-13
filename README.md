@@ -1,13 +1,11 @@
 # Udacity FullStack Developer Nanodegree Program
-#### SQL database projec
-###### Create a report sypnosis
-This is part of the Full Stack Developer project. 
+#### SQL database project
 
 ###### Requirements
 You need to install python and the virtual machine that to run the sql databse server. The VM is a Linux server that runs on top of you computer.
 * Download Python 3 to run `news.py`
 * Download [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org) to install and manage the Virtual Machine.
-* Download class [VM configuration](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/59822701_fsnd-virtual-machine/fsnd-virtual-machine.zip)
+* Download class [VM configuration](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 
 ###### Install the virtual Machine
@@ -24,6 +22,11 @@ $ vagrant up
 ```
 $ vagrant ssh
 ```
+* Access the database by using: 
+```
+$ psql -d news -f newsdata.sql
+```
+
 
 ###### Running the project
 Make sure you have downloaded all the files listed in requirements, after that: 
