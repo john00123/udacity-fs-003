@@ -9,7 +9,7 @@ You need to install python and the virtual machine that to run the sql databse s
 * Download `Vagrant` and `VirtualBox` to install and manage the Virtual Machine.
 
 ###### Install the virtual Machine
-* Install `[VirtualBox](https://www.virtualbox.org)`
+* Install [VirtualBox](https://www.virtualbox.org)
 
 ###### Running the project
 Make sure you have downloaded all the files listed in requirements, after that: 
