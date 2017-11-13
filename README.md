@@ -8,6 +8,7 @@ You need to install python and the virtual machine that to run the sql databse s
 * Download the information into your vagrant folder [VM configuration](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 
+
 ###### Install the virtual Machine
 * Install [VirtualBox](https://www.virtualbox.org) make sure you are downloading the latest version, there could be some incompatibility issues.
 * Install [Vagrant](https://www.vagrantup.com/downloads.html) verify by running that it has installed by using:
@@ -22,6 +23,8 @@ $ vagrant up
 ```
 $ vagrant ssh
 ```
+
+
 
 ###### Running the project
 * Verify access to database using the following command: 
